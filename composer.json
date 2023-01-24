@@ -1,0 +1,10 @@
+{
+    "name": "alfred/film-rental",
+    "description": "Project for testing/learning purposes",
+    "autoload": {
+        "psr-4": {
+            "Alfred\\FilmRental\\": "src/"
+        }
+    },
+    "require": {}
+}

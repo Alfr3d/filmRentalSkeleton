@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /filmRental/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /filmRental/index.php [L]
